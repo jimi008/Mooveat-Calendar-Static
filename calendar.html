@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- start: Mobile Specific -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- end: Mobile Specific -->
+    <title>Mooveat</title>
+    <link rel="stylesheet" href="css/calendar.css">
+</head>
+<body>
+
+<div id="header">
+
+    <div class="top-bar">
+        <ul class="top-nav">
+            <li>
+                <a href="#">signaler un producteur</a>
+            </li>
+            <li>
+                <a href="#">déconnexion</a>
+            </li>
+            <li>
+                <a href="#">inscription</a>
+            </li>
+            <li>
+                <a href="#">fr</a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="search-bar">
+
+        <div class="search-holder">
+
+            <form action="#">
+                <input type="text" placeholder="Recherche">
+                <button></button>
+            </form>
+
+        </div>
+
+        <a href="#" class="menu-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </a>
+        <div class="logo-holder">
+            <img src="images/logo-signature.png" alt="Mooveat Logo" class="logo-desktop">
+            <img src="images/mobile-logo.png" alt="Mooveat Logo" class="logo-mobile">
+
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- Calendar view  Start-->
+
+<div id="calendar">
+
+
+    <div class="container">
+        <div class="row">
+
+            <!--Calendar-->
+            <div class="col-md-7">
+
+
+                <!-- Month bar -->
+
+                <div id="month-bar">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="flexslider" id="months">
+
+                                <section class="regular slider slider-month" id="slider-month">
+                                    <div class="col">
+                                        <div class="month">Janv</div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="month">Févr.</div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="month">Mars</div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="month">Avril</div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="month">Mai</div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="month">Juin</div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="month">Juillet</div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="month">Août</div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="month">Sep</div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="month">Oct</div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="month">Nov</div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="month">Déc</div>
+                                    </div>
+                                    <!-- items mirrored twice, total of 12 -->
+
+
+                                </section>
+
+
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Month bar end -->
+
+                <!-- Dropdown Area -->
+
+                <div class="dropdown-holder" id="dropdown-holder">
+
+                    <form action="#">
+
+                        <div class="checkbox-holder">
+
+                            <div class="checkbox">
+                                <input type="checkbox" id="test1" checked/>
+                                <label for="test1">Fruits</label>
+                            </div>
+
+                            <div class="checkbox">
+                                <input type="checkbox" id="test2" checked/>
+                                <label for="test2">Légumes</label>
+                            </div>
+
+                            <div class="checkbox">
+                                <input type="checkbox" id="test3"/>
+                                <label for="test3">Viandes</label>
+                            </div>
+
+                            <div class="checkbox">
+                                <input type="checkbox" id="test4"/>
+                                <label for="test4">Poissons</label>
+                            </div>
+
+                            <div class="checkbox">
+                                <input type="checkbox" id="test5"/>
+                                <label for="test5">Fromages</label>
+                            </div>
+                        </div>
+
+                        <select name="#" id="category-selector1" class="select-dropdown custom-select ">
+                            <option value="1">Select</option>
+                            <option value="1">Fruits</option>
+                            <option value="1">Légumes</option>
+                            <option value="1">Viandes</option>
+                            <option value="1">Poissons</option>
+                            <option value="1">Fromages</option>
+                        </select>
+                    </form>
+                </div>
+
+
+                <!-- Dropdown Area End -->
+
+                <!-- Product Holder -->
+
+                <div id="products">
+
+                    <div class="container-fluid">
+                        <!--row one-->
+                        <div class="row">
+                            <div class="product-labels">
+
+                                <!--product-->
+                                <a class="p-label orange">
+                                    <div class="image-holder">
+                                        <img src="images/product.png" alt="">
+                                    </div>
+                                    <div class="p-text">avocat</div>
+                                </a>
+
+                                <!--product-->
+                                <a class="p-label orange">
+                                    <div class="image-holder">
+                                        <img src="images/p1.png" alt="">
+                                    </div>
+                                    <div class="p-text">cerise</div>
+                                </a>
+
+
+                                <!--product-->
+                                <a class="p-label green">
+                                    <div class="image-holder">
+                                        <img src="images/p11.png" alt="">
+                                    </div>
+                                    <div class="p-text">choux fleurs</div>
+                                </a>
+
+                                <!--product-->
+                                <a class="p-label orange">
+                                    <div class="image-holder">
+                                        <img src="images/p3.png" alt="">
+                                    </div>
+                                    <div class="p-text">figue</div>
+                                </a>
+
+                                <!--product-->
+                                <a class="p-label orange">
+                                    <div class="image-holder">
+                                        <img src="images/p4.png" alt="">
+                                    </div>
+                                    <div class="p-text">fraise</div>
+                                </a>
+
+                                <!--product-->
+                                <a class="p-label orange">
+                                    <div class="image-holder">
+                                        <img src="images/p5.png" alt="">
+                                    </div>
+                                    <div class="p-text">kiwi</div>
+                                </a>
+
+                                <!--product-->
+                                <a class="p-label orange">
+                                    <div class="image-holder">
+                                        <img src="images/p6.png" alt="">
+                                    </div>
+                                    <div class="p-text">mûre</div>
+                                </a>
+
+                                <!--product-->
+                                <a class="p-label orange">
+                                    <div class="image-holder">
+                                        <img src="images/p7.png" alt="">
+                                    </div>
+                                    <div class="p-text">pomme</div>
+                                </a>
+
+                                <!--product-->
+                                <a class="p-label green">
+                                    <div class="image-holder">
+                                        <img src="images/p8.png" alt="">
+                                    </div>
+                                    <div class="p-text">pomme de terre</div>
+                                </a>
+
+                                <!--product-->
+                                <a class="p-label orange">
+                                    <div class="image-holder">
+                                        <img src="images/p9.png" alt="">
+                                    </div>
+                                    <div class="p-text">poire</div>
+                                </a>
+
+                                <!--product-->
+                                <a class="p-label orange">
+                                    <div class="image-holder">
+                                        <img src="images/p10.png" alt="">
+                                    </div>
+                                    <div class="p-text">rhubarbe</div>
+                                </a>
+
+
+                            </div>
+
+                            <section class="regular slider slider-product" id="slider-product">
+                                <!--col 1-->
+                                <div class="col">
+                                    <div class="cell peach"></div>
+                                    <div class="cell"></div>
+                                    <div class="cell green-light"></div>
+                                    <div class="cell"></div>
+                                    <div class="cell peach"></div>
+                                    <div class="cell peach"></div>
+                                    <div class="cell"></div>
+                                    <div class="cell peach"></div>
+                                    <div class="cell green-light"></div>
+                                    <div class="cell peach"></div>
+                                    <div class="cell"></div>
+
+                                </div>
+                                <!--col 2-->
+                                <div class="col">
+                                    <div class="cell peach"></div>
+                                    <div class="cell"></div>
+                                    <div class="cell green-light"></div>
+                                    <div class="cell"></div>
+                                    <div class="cell peach"></div>
+                                    <div class="cell peach"></div>
+                                    <div class="cell"></div>
+                                    <div class="cell peach"></div>
+                                    <div class="cell green-light"></div>
+                                    <div class="cell peach"></div>
+                                    <div class="cell"></div>
+                                </div>
+                                <!--col 3-->
+                                <div class="col">
+                                    <div class="cell peach"></div>
+                                    <div class="cell"></div>
+                                    <div class="cell green-light"></div>
+                                    <div class="cell"></div>
+                                    <div class="cell peach"></div>
+                                    <div class="cell peach"></div>
+                                    <div class="cell"></div>
+                                    <div class="cell"></div>
+                                    <div class="cell green-light"></div>
+                                    <div class="cell"></div>
+                                    <div class="cell"></div>
+                                </div>
+                                <!--col 4-->
+                                <div class="col">
+                                    <div class="cell peach"></div>
+                                    <div class="cell"></div>
+                                    <div class="cell"></div>
+                                    <div class="cell"></div>
+                                    <div class="cell peach"></div>
+                                    <div class="cell peach"></div>
+                                    <div class="cell"></div>
+                                    <div class="cell"></div>
+                                    <div class="cell green-light"></div>
+                                    <div class="cell"></div>
+                                    <div class="cell peach"></div>
+                                </div>
+                                <!--col 5-->
+                                <div class="col">
+                                    <div class="cell peach"></div>
+                                    <div class="cell peach"></div>
+                                    <div class="cell"></div>
+                                    <div class="cell"></div>
+                                    <div class="cell peach"></div>
+                                    <div class="cell"></div>
+                                    <div class="cell"></div>
+                                    <div class="cell"></div>
+                                    <div class="cell green-light"></div>
+                                    <div class="cell"></div>
+                                    <div class="cell peach"></div>
+                                </div>
+                                <!--col 6-->
+                                <div class="col">
+                                    <div class="cell"></div>
+                                    <div class="cell peach"></div>
+                                    <div class="cell"></div>
+                                    <div class="cell peach"></div>
+                                    <div class="cell peach"></div>
+                                    <div class="cell"></div>
+                                    <div class="cell peach"></div>
+                                    <div class="cell"></div>
+                                    <div class="cell green-light"></div>
+                                    <div class="cell"></div>
+                                    <div class="cell"></div>
+                                </div>
+                                <!--col 7-->
+                                <div class="col">
+                                    <div class="cell"></div>
+                                    <div class="cell peach"></div>
+                                    <div class="cell"></div>
+                                    <div class="cell peach"></div>
+                                    <div class="cell peach"></div>
+                                    <div class="cell"></div>
+                                    <div class="cell peach"></div>
+                                    <div class="cell"></div>
+                                    <div class="cell green-light"></div>
+                                    <div class="cell"></div>
+                                    <div class="cell"></div>
+                                </div>
+                                <!--col 8-->
+                                <div class="col">
+                                    <div class="cell"></div>
+                                    <div class="cell peach"></div>
+                                    <div class="cell"></div>
+                                    <div class="cell"></div>
+                                    <div class="cell"></div>
+                                    <div class="cell"></div>
+                                    <div class="cell peach"></div>
+                                    <div class="cell"></div>
+                                    <div class="cell green-light"></div>
+                                    <div class="cell"></div>
+                                    <div class="cell"></div>
+                                </div>
+                                <!--col 9-->
+                                <div class="col">
+                                    <div class="cell"></div>
+                                    <div class="cell"></div>
+                                    <div class="cell"></div>
+                                    <div class="cell"></div>
+                                    <div class="cell"></div>
+                                    <div class="cell"></div>
+                                    <div class="cell peach"></div>
+                                    <div class="cell"></div>
+                                    <div class="cell green-light"></div>
+                                    <div class="cell"></div>
+                                    <div class="cell"></div>
+                                </div>
+                                <!--col 10-->
+                                <div class="col">
+                                    <div class="cell"></div>
+                                    <div class="cell"></div>
+                                    <div class="cell"></div>
+                                    <div class="cell"></div>
+                                    <div class="cell"></div>
+                                    <div class="cell"></div>
+                                    <div class="cell peach"></div>
+                                    <div class="cell"></div>
+                                    <div class="cell"></div>
+                                    <div class="cell"></div>
+                                    <div class="cell"></div>
+                                </div>
+                                <!--col 11-->
+                                <div class="col">
+                                    <div class="cell"></div>
+                                    <div class="cell"></div>
+                                    <div class="cell"></div>
+                                    <div class="cell"></div>
+                                    <div class="cell"></div>
+                                    <div class="cell"></div>
+                                    <div class="cell"></div>
+                                    <div class="cell"></div>
+                                    <div class="cell"></div>
+                                    <div class="cell"></div>
+                                    <div class="cell"></div>
+                                </div>
+                                <!--col 12-->
+                                <div class="col">
+                                    <div class="cell"></div>
+                                    <div class="cell"></div>
+                                    <div class="cell green-light"></div>
+                                    <div class="cell"></div>
+                                    <div class="cell"></div>
+                                    <div class="cell"></div>
+                                    <div class="cell"></div>
+                                    <div class="cell peach"></div>
+                                    <div class="cell"></div>
+                                    <div class="cell"></div>
+                                    <div class="cell"></div>
+                                </div>
+                            </section>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Product Holder End -->
+
+
+            </div>
+
+            <!--Detail-->
+            <div class="col-md-5">
+
+                <div class="tint"></div>
+                <a class="btn-close">&times;</a>
+
+                <div id="detail" class="">
+
+
+                    <!--close button-->
+
+                    <div id="detail-header">
+
+                        <!--Head-->
+
+                        <div class="head">
+                            <div class="image-holder">
+                                <img src="images/strawberry.png" alt="">
+                            </div>
+                            <div class="product-title">
+                                Fraise
+                            </div>
+                        </div>
+
+                        <!--Select-->
+
+                        <form action="#">
+                            <select name="#" id="category-selector" class="select-dropdown custom-select" onchange="location = this.options[this.selectedIndex].value;">
+                                <option value="1">Select</option>
+                                <option value="#carte">Carte d'identité</option>
+                                <option value="#bref">Bref</option>
+                            </select>
+                        </form>
+
+                        <!--Chart-->
+
+                        <div class="bar-chart">
+                            <ul>
+                                <li>
+                                    <div class="bar"></div>
+                                    <div class="bar-label">J</div>
+                                </li>
+                                <li>
+                                    <div class="bar"></div>
+                                    <div class="bar-label">F</div>
+                                </li>
+                                <li>
+                                    <div class="bar"></div>
+                                    <div class="bar-label">M</div>
+                                </li>
+                                <li>
+                                    <div class="bar blue-green double-height"></div>
+                                    <div class="bar-label">A</div>
+                                </li>
+                                <li>
+                                    <div class="bar green triple-height"></div>
+                                    <div class="bar-label">M</div>
+                                </li>
+                                <li>
+                                    <div class="bar green triple-height"></div>
+                                    <div class="bar-label">J</div>
+                                </li>
+                                <li>
+                                    <div class="bar"></div>
+                                    <div class="bar-label">J</div>
+                                </li>
+                                <li>
+                                    <div class="bar"></div>
+                                    <div class="bar-label">A</div>
+                                </li>
+                                <li>
+                                    <div class="bar"></div>
+                                    <div class="bar-label">S</div>
+                                </li>
+                                <li>
+                                    <div class="bar"></div>
+                                    <div class="bar-label">O</div>
+                                </li>
+                                <li>
+                                    <div class="bar"></div>
+                                    <div class="bar-label">N</div>
+                                </li>
+                                <li>
+                                    <div class="bar"></div>
+                                    <div class="bar-label">D</div>
+                                </li>
+
+                            </ul>
+
+                            <div class="legends">
+                                <div class="legend green">
+                                    <div class="dot"></div>
+                                    <div class="label">Pleine saison</div>
+                                </div>
+                                <div class="legend blue-green">
+                                    <div class="dot"></div>
+                                    <div class="label">Disponible</div>
+                                </div>
+                                <div class="legend">
+                                    <div class="dot"></div>
+                                    <div class="label">Indisponible</div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                    <!--Description-->
+                    <div class="description">
+                        <h2 id="carte">Carte d’identité :</h2>
+                        <p>
+                            Originaire d’Asie centrale, la fève est aujourd’hui cultivée dans le monde entier.
+                            Généreuse, c’est un régal pour le palais. Elle se croque crue ou bien cuite. Grâce à sa
+                            facilité de conservation sèche, elle fut pendant longtemps un aliment de réserve essentiel
+                            face aux pénuries alimentaires.
+                        </p>
+                        <h2 id="bref">En bref : </h2>
+                        <p>
+                            Plus grosse graine de la grande famille des légumineuses, elle se cache dans une longue
+                            cosse aplatie.
+                            À la différence du haricot, elle possède une fine peau qu’il faut retirer avant de la
+                            croquer.
+                            À l’Épiphanie, elle se cache dans la galette des rois et symbolise une pièce de monnaie.
+                            La fève présente un éventail de qualités nutritionnelles et un fort pouvoir de satiété :
+                            croquez-en si vous avez un petit creux et vous tiendrez facilement jusqu’au prochain repas.
+                            Ne laissez pas passer la saison ! La fève est une plante annuelle qui n’est disponible que
+                            quelques semaines, d’avril à juillet.
+                        </p>
+                        <a href="#" class="more">variétés ></a>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+</div>
+
+<!-- Calendar view End -->
+
+<footer class="footer">
+    <ul class="footer-links">
+        <li>
+            <a href="">
+                Conditions générales d’utilisation
+            </a>
+        </li>
+
+        <li>
+            <a href="">
+                Contactez-nous
+            </a>
+        </li>
+
+        <li>
+            <a href="">
+                Mentions légales
+            </a>
+        </li>
+
+        <li>
+            <a href="">
+                Crédits
+            </a>
+        </li>
+    </ul>
+
+</footer>
+
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-2.1.3.min.js" type="text/javascript"></script>
+
+<!-- Slick Slider -->
+<script src="js/slick.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/jquery.sticky.js" type="text/javascript" charset="utf-8"></script>
+
+<!--Global Script-->
+
+<script src="js/script.js"></script>
+
+
+</body>
+</html>
